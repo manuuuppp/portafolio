@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>juego</title>
+<link rel="stylesheet" href="cs/juego.css">
+</head>
+<body>
+
+<center>
+	<header>
+<h1>Bienvenido</h1>
+</header>
+<div class="container">
+<section id="p0">
+<h3>1- Que color es el sol?</h3>
+<label for="">
+<input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Azul
+</label>
+<label for="">
+<input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Rojo
+</label>
+<label for="">
+<input type="radio" value="3" name="p0" onclick="respuesta(0,this)">Amarillo
+</label>
+</section>
+<section id="p1">
+<h3>2- Que color es el pasto?</h3>
+<label for="">
+<input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Verde
+</label>
+<label for="">
+<input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Negro
+</label>
+<label for="">
+<input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Blanco
+</label>
+</section>
+<section id="p2">
+<h3>3- Que color es el cielo?</h3>
+<label for="">
+<input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Amarillo
+</label>
+<label for="">
+<input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Azul
+</label>
+<label for="">
+<input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Rojo
+</label>
+</section>
+<section id="p3">
+<button onclick="corregir()">corregir</button>
+<h2>cantidad acertadas: <span id="resultado"></span></h2>
+</div>
+</center>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body{
+background: pink;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+input[name="mensaje"]{
+	width: 600px;
+	height: 150px;
+}

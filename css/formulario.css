@@ -1,0 +1,10 @@
+body{
+background: rgb(242,246,6);
+background: linear-gradient(90deg, rgba(242,246,6,1) 16%, rgba(2,6,35,1) 100%);
+font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+input[name="mensaje"]{
+	width: 600px;
+	height: 150px;
+}
